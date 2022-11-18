@@ -8,6 +8,7 @@ Step 2 - Run the below file
 data_extract_V0.ipynb - running the above file and extracting the base data for each product
 
 Step 3 - Run the below 3 files
+
 model_V0_loan.ipynb - train the loan model
 
 model_V0_swipe.ipynb - train the swipe model
