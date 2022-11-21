@@ -5,7 +5,7 @@ Step 1 - No need to run this file but any SQL changes for model training data wi
 query_V0.py - SQL to fetch data for swipe, speaker and loan
 
 Step 2 - Run the below file
-data_extract_V0.ipynb - running the above file and extracting the base data for each product
+data_extract_V0.ipynb - run the file and extract the base data for each product
 
 Step 3 - Run the below 3 files
 
@@ -23,7 +23,10 @@ Step 4 - Runnning the below file is not needed
 query_inf.py - SQL to fetch data on the current active merchants
 
 Step 5 - Run the below file
-data_extract_inf_V0.ipynb - running the above file and extracting the base data for current active merchants
+data_extract_inf_V0.ipynb - run the file and extract the base data for current active merchants
 
 Step 6 - Run the below file
+app_profiler.ipynb - running the file will generate the 'digital_merchants.csv' that will be used in the inference in Step 7
+
+Step 7 - Run the below file
 model_V0_inf.ipynb - running the model on the current active merchants and push the final result to BQ.
